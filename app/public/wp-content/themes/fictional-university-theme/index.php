@@ -1,20 +1,9 @@
 <?php
-function myFirstFunction($name, $color)
-{
-    echo "<p>Hello, my name is $name and my favorite color is $color.</p>";
+$names = array('Tran', 'Duy', 'Bau');
+$count = 0;
+
+while ($count < count($names)) {
+    echo "<li>Hi, my name is $names[$count].</li>";
+    $count++;
 }
-
-myFirstFunction('Bau', 'pink');
-myFirstFunction('Uab', 'black');
 ?>
-
-<h1>
-    <?php
-    bloginfo('name');
-    ?>
-</h1>
-<p>
-    <?php
-    bloginfo('description')
-    ?>
-</p>
