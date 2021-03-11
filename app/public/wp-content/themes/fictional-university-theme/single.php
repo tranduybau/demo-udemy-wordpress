@@ -1,4 +1,6 @@
 <?php
+get_header();
+
 while (have_posts()) {
     the_post();
     ?>
@@ -8,6 +10,8 @@ while (have_posts()) {
     </section>
     <?php
 }
+
+get_footer();
 ?>
 
 <!--<h2>--><?php //the_title(); ?><!--</h2>-->
