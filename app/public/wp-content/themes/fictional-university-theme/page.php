@@ -41,7 +41,7 @@ while (have_posts()) {
             'child_of' => get_the_ID(), // get all pages that is child of current page (id)
         ));
 
-        if ($theParentId) {
+        if ($testArray or $theParentId) {
             ?>
             <div class="page-links">
                 <h2 class="page-links__title">

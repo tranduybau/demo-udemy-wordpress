@@ -12,6 +12,10 @@ add_action('wp_enqueue_scripts', 'university_files');
 // wp_enqueue_scripts -> lúc khởi tạo nạp file, chạy hàm university_files
 
 function university_features() {
+//    register_nav_menu('headerMenuLocation', 'Header Menu Location'); // đăng ký 1 cái menu (kiểu như nav-header-menu)
+//    register_nav_menu('footerExploreMenuLocation', 'Footer Explore Menu Location');
+//    register_nav_menu('footerLearnMenuLocation', 'Footer Learn Menu Location');
+
     add_theme_support('title-tag');
 }
 
