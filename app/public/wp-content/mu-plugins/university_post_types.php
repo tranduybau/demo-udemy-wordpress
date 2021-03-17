@@ -3,6 +3,8 @@ function university_post_types()
 {
     register_post_type('event', array(
         'rewrite' => array('slug' => 'events'),
+        'supports' => array('title', 'editor', 'excerpt'),
+        'show_in_rest' => true,
         'has_archive' => true,
         'public' => true,
         'labels' => array(
