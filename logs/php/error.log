@@ -1,1 +1,79 @@
 [14-Mar-2021 14:02:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/header.php on line 24
+[17-Mar-2021 13:49:19 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 233
+[17-Mar-2021 13:49:19 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:19 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:19 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:19 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:19 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:19 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:19 UTC] PHP   6. preg_match_all() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:233
+[17-Mar-2021 13:49:19 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 234
+[17-Mar-2021 13:49:19 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:19 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:19 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:19 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:19 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:19 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:19 UTC] PHP   6. array_intersect() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:234
+[17-Mar-2021 13:49:19 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 239
+[17-Mar-2021 13:49:19 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:19 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:19 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:19 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:19 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:19 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:19 UTC] PHP   6. preg_split() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:239
+[17-Mar-2021 13:49:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 241
+[17-Mar-2021 13:49:19 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:19 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:19 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:19 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:19 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:19 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:19 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 301
+[17-Mar-2021 13:49:19 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:19 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:19 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:19 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:19 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:19 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:19 UTC] PHP   6. implode() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:301
+[17-Mar-2021 13:49:24 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 233
+[17-Mar-2021 13:49:24 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:24 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:24 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:24 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:24 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:24 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:24 UTC] PHP   6. preg_match_all() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:233
+[17-Mar-2021 13:49:24 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 234
+[17-Mar-2021 13:49:24 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:24 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:24 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:24 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:24 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:24 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:24 UTC] PHP   6. array_intersect() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:234
+[17-Mar-2021 13:49:24 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 239
+[17-Mar-2021 13:49:24 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:24 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:24 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:24 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:24 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:24 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:24 UTC] PHP   6. preg_split() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:239
+[17-Mar-2021 13:49:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 241
+[17-Mar-2021 13:49:24 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:24 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:24 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:24 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:24 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:24 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:24 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php on line 301
+[17-Mar-2021 13:49:24 UTC] PHP Stack trace:
+[17-Mar-2021 13:49:24 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:0
+[17-Mar-2021 13:49:24 UTC] PHP   2. require_once() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/index.php:115
+[17-Mar-2021 13:49:24 UTC] PHP   3. require() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/admin-header.php:243
+[17-Mar-2021 13:49:24 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
+[17-Mar-2021 13:49:24 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
+[17-Mar-2021 13:49:24 UTC] PHP   6. implode() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:301
