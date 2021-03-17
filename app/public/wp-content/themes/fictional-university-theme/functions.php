@@ -18,7 +18,8 @@ function university_files()
 add_action('wp_enqueue_scripts', 'university_files');
 // wp_enqueue_scripts -> lúc khởi tạo nạp file, chạy hàm university_files
 
-function university_features() {
+function university_features()
+{
 //    register_nav_menu('headerMenuLocation', 'Header Menu Location'); // đăng ký 1 cái menu (kiểu như nav-header-menu)
 //    register_nav_menu('footerExploreMenuLocation', 'Footer Explore Menu Location');
 //    register_nav_menu('footerLearnMenuLocation', 'Footer Learn Menu Location');
@@ -27,3 +28,16 @@ function university_features() {
 }
 
 add_action('after_setup_theme', 'university_features');
+
+//function university_post_types()
+//{
+//    register_post_type('event', array(
+//        'public' => true,
+//        'labels' => array(
+//            'name' => 'Events',
+//        ),
+//        'menu_icon' => 'dashicons-calendar-alt',
+//    ));
+//}
+//
+//add_action('init', 'university_post_types');
