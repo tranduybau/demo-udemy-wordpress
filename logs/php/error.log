@@ -77,3 +77,17 @@
 [17-Mar-2021 13:49:24 UTC] PHP   4. _wp_menu_output() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:295
 [17-Mar-2021 13:49:24 UTC] PHP   5. wptexturize() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/menu-header.php:252
 [17-Mar-2021 13:49:24 UTC] PHP   6. implode() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/formatting.php:301
+[18-Mar-2021 07:06:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 20210318() in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/front-page.php:44
+Stack trace:
+#0 /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tranduybau/Local Sites/wpsml/app/public/wp-blog-header.php(19): require_once('/Users/tranduyb...')
+#2 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
+#3 {main}
+  thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 44
+[18-Mar-2021 07:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 20210318() in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/front-page.php:44
+Stack trace:
+#0 /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tranduybau/Local Sites/wpsml/app/public/wp-blog-header.php(19): require_once('/Users/tranduyb...')
+#2 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
+#3 {main}
+  thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 44
