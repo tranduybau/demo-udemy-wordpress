@@ -99,3 +99,7 @@ Stack trace:
 #3 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
 #4 {main}
   thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/query.php on line 26
+[20-Mar-2021 09:22:32 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 38
+[20-Mar-2021 09:23:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 39
+[20-Mar-2021 09:24:00 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 39
+[20-Mar-2021 09:38:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 66
