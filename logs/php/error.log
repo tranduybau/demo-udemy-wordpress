@@ -103,3 +103,56 @@ Stack trace:
 [20-Mar-2021 09:23:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 39
 [20-Mar-2021 09:24:00 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 39
 [20-Mar-2021 09:38:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 66
+[24-Mar-2021 07:11:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-program.php:62
+Stack trace:
+#0 /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tranduybau/Local Sites/wpsml/app/public/wp-blog-header.php(19): require_once('/Users/tranduyb...')
+#2 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
+#3 {main}
+  thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 62
+[24-Mar-2021 07:29:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_thumbnail() in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php:20
+Stack trace:
+#0 /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tranduybau/Local Sites/wpsml/app/public/wp-blog-header.php(19): require_once('/Users/tranduyb...')
+#2 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
+#3 {main}
+  thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 20
+[24-Mar-2021 07:29:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_thumbnail() in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php:20
+Stack trace:
+#0 /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tranduybau/Local Sites/wpsml/app/public/wp-blog-header.php(19): require_once('/Users/tranduyb...')
+#2 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
+#3 {main}
+  thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 20
+[24-Mar-2021 07:39:39 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 56
+[24-Mar-2021 07:39:39 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 56
+[24-Mar-2021 10:05:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 6 and exactly 1 expected in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php(6): pageBanner()
+#1 /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/template-loader.php(106): include('/Users/tranduyb...')
+#2 /Users/tranduybau/Local Sites/wpsml/app/public/wp-blog-header.php(19): require_once('/Users/tranduyb...')
+#3 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
+#4 {main}
+  thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[24-Mar-2021 10:11:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 6 and exactly 1 expected in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/single-professor.php(6): pageBanner()
+#1 /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/template-loader.php(106): include('/Users/tranduyb...')
+#2 /Users/tranduybau/Local Sites/wpsml/app/public/wp-blog-header.php(19): require_once('/Users/tranduyb...')
+#3 /Users/tranduybau/Local Sites/wpsml/app/public/index.php(17): require('/Users/tranduyb...')
+#4 {main}
+  thrown in /Users/tranduybau/Local Sites/wpsml/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[24-Mar-2021 14:38:58 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/update.php on line 410
+[24-Mar-2021 14:38:58 UTC] PHP Stack trace:
+[24-Mar-2021 14:38:58 UTC] PHP   1. {main}() /Users/tranduybau/Local Sites/wpsml/app/public/wp-cron.php:0
+[24-Mar-2021 14:38:58 UTC] PHP   2. do_action_ref_array() /Users/tranduybau/Local Sites/wpsml/app/public/wp-cron.php:138
+[24-Mar-2021 14:38:58 UTC] PHP   3. WP_Hook->do_action() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/plugin.php:551
+[24-Mar-2021 14:38:58 UTC] PHP   4. WP_Hook->apply_filters() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/class-wp-hook.php:316
+[24-Mar-2021 14:38:58 UTC] PHP   5. wp_version_check() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/class-wp-hook.php:292
+[24-Mar-2021 14:38:58 UTC] PHP   6. do_action() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/update.php:256
+[24-Mar-2021 14:38:58 UTC] PHP   7. WP_Hook->do_action() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/plugin.php:484
+[24-Mar-2021 14:38:58 UTC] PHP   8. WP_Hook->apply_filters() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/class-wp-hook.php:316
+[24-Mar-2021 14:38:58 UTC] PHP   9. wp_maybe_auto_update() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/class-wp-hook.php:292
+[24-Mar-2021 14:38:58 UTC] PHP  10. WP_Automatic_Updater->run() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/update.php:650
+[24-Mar-2021 14:38:58 UTC] PHP  11. wp_update_plugins() /Users/tranduybau/Local Sites/wpsml/app/public/wp-admin/includes/class-wp-automatic-updater.php:502
+[24-Mar-2021 14:38:58 UTC] PHP  12. trigger_error() /Users/tranduybau/Local Sites/wpsml/app/public/wp-includes/update.php:410
